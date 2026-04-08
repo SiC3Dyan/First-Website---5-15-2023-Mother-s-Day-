@@ -1,0 +1,34 @@
+*{padding: 0;margin: 0;}
+.container{height: 100vh;
+          width: 100vw;
+          color:#444;
+        background: #ffe3f9;
+      text-align: center;
+    font-size: 40px;}
+
+.mother{padding: 15%;}
+.mother span{color:#fc8698 ;}
+.mother a{text-decoration: none;
+        }
+
+#ClickHere{color:rgb(255, 0, 162); font-family:'Brush Script MT'}
+
+img{height: 40px;width: 70px;animation: heart 4s linear infinite;}
+
+#GoBack{color:rgb(255, 0, 162); font-family:'Brush Script MT';
+margin-right: 70px;}
+
+.clickhere h2{
+  padding-top: 15%;
+  font-size: 60px;
+}
+
+@keyframes heart{
+  0%{transform: scale(0.1);}
+  50%{transform: scale(1.5);}
+  100%{transform: scale(2.0);}
+
+}
+
+
+        
